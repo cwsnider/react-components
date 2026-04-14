@@ -14,9 +14,9 @@ const App = () => {
       <h1>
         React Components
       </h1>
+      <Welcome />
       <PizzaToppings />
       <TsteeleComponent />
-      <Welcome />
     </div>
   );
 }

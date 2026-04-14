@@ -10,7 +10,7 @@ const Welcome = () => {
     const [welcomeMessage, setWelcomeMessage] = useState("");
 
     return (
-        <Card className="mt-3">
+        <Card className="my-3">
             <Card.Body>
                 <Card.Title className="mb-4">Greetings from an Input Group</Card.Title>
 
