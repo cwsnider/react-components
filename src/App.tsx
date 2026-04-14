@@ -1,7 +1,9 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import PizzaToppings from './PizzaToppings';
 import TsteeleComponent from './TsteeleComponent';
+import Welcome from './Welcome';
 
 const App = () => {
 
@@ -14,6 +16,7 @@ const App = () => {
       </h1>
       <PizzaToppings />
       <TsteeleComponent />
+      <Welcome />
     </div>
   );
 }
